@@ -1,0 +1,38 @@
+<Window>:
+    
+        
+    Confirm:
+        id:butn
+        pos: 300,100
+        size: 70,30
+        on_press: root.press()
+        background_color: "#40444a"
+
+
+    Title:
+        id:title
+        text:"welcome"
+        pos: 500,500
+        size:100,100
+
+    Temp_prompt:
+        id:temp1
+        text: self.current
+        pos: 500,300
+        size: 200,200
+        color: "white"
+        
+
+
+    Title:
+        id: set_t
+        text: self.temp_value
+        size: 20,20
+        pos: 100,140
+        color: "red"
+
+
+    Input_target:
+        pos: 100,100
+        size: 200,30
+        background_color: "#d69c38"
